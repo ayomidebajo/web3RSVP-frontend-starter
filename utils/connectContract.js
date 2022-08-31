@@ -4,7 +4,7 @@ import { ethers } from "ethers";
 
 function connectContract() {
   //Note: Your contractAddress will start with 0x, delete everything between the quotes and paste your contract address.
-  const contractAddress = "0x[YOUR_CONTRACT_ADDRESS]";
+  const contractAddress = "0xbc36496f7f74fc9082521e3c66e460e54f8266c6";
   const contractABI = abiJSON.abi;
   let rsvpContract;
   try {

@@ -1,13 +1,13 @@
-// module.exports = {
-//   images: {
-//     domains: ["images.unsplash.com", "ipfs.io"],
-//   },
-//   reactStrictMode: false,
-// };
-
-
-const nextConfig = {
+module.exports = {
+  images: {
+    domains: ["images.unsplash.com", "ipfs.io"],
+  },
   reactStrictMode: false,
 };
 
-module.exports = nextConfig;
+
+// const nextConfig = {
+//   reactStrictMode: false,
+// };
+
+// module.exports = nextConfig;
